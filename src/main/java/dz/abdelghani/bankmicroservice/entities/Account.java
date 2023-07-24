@@ -20,5 +20,7 @@ public class Account {
     private Date creationDate;
     @Enumerated(EnumType.STRING)
     private AccountType type;
+    @ManyToOne
+    private Client client;
 
 }
