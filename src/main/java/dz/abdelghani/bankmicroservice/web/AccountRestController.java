@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.ws.rs.core.MediaType;
 import java.util.List;
-@RestController
+//@RestController
 @RequestMapping("/bank")
 public class AccountRestController {
     AccountRepository accountRepository;
